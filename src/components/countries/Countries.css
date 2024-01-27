@@ -1,0 +1,38 @@
+.country-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+}
+.visited{
+    background-color: chartreuse;
+}
+.mark-btn{
+
+
+    background-color: brown;
+    color: white;
+    padding: 8px;
+    
+}
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.flag-container{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+    justify-content: center;
+   
+
+}
+
+.img-container{
+    width: 100px;
+}
